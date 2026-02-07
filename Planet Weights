@@ -1,0 +1,26 @@
+earth_weight = float(input('Enter ur weight: '))
+planet = int(input('Planet Number: '))
+
+if planet == 1:
+  destw = earth_weight * 0.38
+  print(destination_weight)
+elif planet == 2:
+  destw = earth_weight * 0.91
+  print(destination_weight)
+elif planet == 3:
+  destw = earth_weight * 0.38
+  print(destination_weight)
+elif planet == 4:
+  destw = earth_weight * 2.53
+  print(destination_weight)
+elif planet == 5:
+  destw = earth_weight * 1.07
+  print(destw)
+elif planet == 6:
+  destw = earthw * 0.89
+  print(destw)
+elif planet == 7:
+  destw = earthw * 1.14
+  print(destw)
+else:
+  print('Invalid planet number')
